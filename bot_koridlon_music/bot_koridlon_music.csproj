@@ -1,0 +1,31 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net6.0</TargetFramework>
+    <AssemblyName>Музяка</AssemblyName>
+    <ApplicationIcon>logo sq 1.ico</ApplicationIcon>
+    <Version>2.0.0.1</Version>
+    <Authors>NascuBB, T1xDev</Authors>
+    <Description>бот музяка</Description>
+    <IsPublishable>False</IsPublishable>
+    <SignAssembly>False</SignAssembly>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Discord.Net" Version="3.12.0" />
+    <PackageReference Include="Discord.Net.Commands" Version="3.12.0" />
+    <PackageReference Include="Discord.Net.Core" Version="3.12.0" />
+    <PackageReference Include="Discord.Net.Interactions" Version="3.12.0" />
+    <PackageReference Include="Discord.Net.Rest" Version="3.12.0" />
+    <PackageReference Include="Discord.Net.Webhook" Version="3.12.0" />
+    <PackageReference Include="Discord.Net.WebSocket" Version="3.12.0" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="7.0.0" />
+    <PackageReference Include="Microsoft.Extensions.Logging" Version="7.0.0" />
+    <PackageReference Include="ShablePrefix" Version="1.0.6" />
+    <PackageReference Include="SpotifyAPI.Web" Version="7.0.0" />
+    <PackageReference Include="SpotifyAPI.Web.Auth" Version="7.0.0" />
+    <PackageReference Include="Victoria" Version="6.0.1026" />
+  </ItemGroup>
+
+</Project>
